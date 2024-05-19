@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#nav{
+  background-color: darkred;
+}
+
+#nav a {
+  color: white;
+  margin-right: 7px;
+}
+
+#nav a:hover{
+  background-color: black;
+}
+
+p{
+  color: gray;
+}
+
+#btn{
+  background-color: darkred;
+  border: none;
+}
+
+.boxcontainer{
+  height: 300px;
+  width: 100%;
+  background-color: darkred;
+  color: white;
+}
+
+.boxcontainer p{
+  color: white;
+}
+
+#card{
+  overflow: hidden;
+  margin-bottom: 1px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#head{
+  overflow: hidden;
+  margin-bottom: 1px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* .............Social Media Icon.............. */
+
+.icon-bar{
+  position: fixed;
+  top: 30%;
+
+}
+
+.icon-bar a{
+  display: block;
+  text-align: center;
+  padding: 12px;
+  font-size: 27px;
+}
+
+.icon-bar a:hover
+{
+  background-color: black;
+  transition: 0.3s;
+}
+
+.facebook{
+  background-color: rgb(50, 50, 200);
+  color: white; 
+}
+
+.instagram{
+  background-color: rgb(200, 50, 130);
+  color: white; 
+}
+
+.twitter{
+  background-color: skyblue;
+  color: black; 
+}
+
+.google{
+  background-color: darkred;
+  color: white; 
+}
+
+.whatsapp{
+  background-color: green;
+  color: white; 
+}
+
+/* .............Social Media Icon.............. */
